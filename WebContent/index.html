@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <title>Fire Alarm Web Client</title>
+    <style>
+    	* {
+    		margin: 0;
+    		padding: 0;
+    	}
+    	
+    	#theLinkContainer {
+    		height: 100vh;
+    		display: flex;
+    		flex-direction: row;
+    		justify-content: center;
+    		align-items: center;
+    		font-size: 54px;
+    		font-family: 'Calibri', sans-serif;
+    		text-align: center;
+    	}
+    	
+    	#theLinkContainer #theLink {
+    		text-decoration: none;
+    		color: #333333;
+    	}
+    	
+    	#theLinkContainer #theLink #theLinkEnter {
+    		color: crimson;
+    	}
+    </style>
+</head>
+<body>
+	<div id="theLinkContainer">
+    	<a id="theLink" href="/FireAlarmWeb/SensorControllerServlet"><h1><i class="fas fa-exclamation-triangle"></i> FireAlarm&trade;</h1> <small id="theLinkEnter">Enter</small></a>
+   	</div>
+</body>
+</html>
